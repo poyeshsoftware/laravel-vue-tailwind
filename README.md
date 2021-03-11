@@ -1,8 +1,12 @@
-## Setup Project
+## About Project
 
 A sample boilerplate simple book store project including the following technologies :
  
 `php / Laravel backend , mysql db , vue.js , vuex , vuetify and tailwind.css`
+
+![dashboard](pic1.png)
+
+![dashboard](pic2.png)
 
 ###Backend :
 
