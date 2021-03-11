@@ -1,0 +1,83 @@
+@import '~vuetify/src/styles/main.sass';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+//@import "~@mdi/font/css/materialdesignicons.min.css";
+
+main {
+    display: block;
+}
+
+.v-application ul{
+    @apply tw-p-0  #{!important};
+}
+
+.router-link-exact-active {
+    @apply tw-font-bold;
+    @apply tw-text-gray-800  #{!important};
+}
+
+.draggable-mouse {
+    @apply tw-cursor-move;
+}
+
+.uploaded-image-col {
+    position: relative;
+}
+
+.remove-image-uploaded {
+    position: absolute !important;
+    top: 12px;
+    right: 25px;
+    z-index: 999;
+}
+
+.remove-image-uploaded:hover {
+    cursor: pointer !important;
+}
+
+[type='text']:focus,
+[type='email']:focus,
+[type='url']:focus,
+[type='password']:focus,
+[type='number']:focus,
+[type='date']:focus,
+[type='datetime-local']:focus,
+[type='month']:focus,
+[type='search']:focus,
+[type='tel']:focus,
+[type='time']:focus,
+[type='week']:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+    --tw-ring-offset-width: none !important;
+    --tw-ring-offset-color: none !important;
+    --tw-ring-color: none !important;
+    --tw-ring-offset-shadow: none !important;
+    --tw-ring-shadow: none !important;
+}
+
+[type='text'],
+[type='email'],
+[type='url'],
+[type='password'],
+[type='number'],
+[type='date'],
+[type='datetime-local'],
+[type='month'],
+[type='search'],
+[type='tel'],
+[type='time'],
+[type='week'],
+[multiple],
+textarea,
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent !important;
+}
+
+
