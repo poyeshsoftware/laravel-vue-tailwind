@@ -4,7 +4,7 @@
         <div class="lg:tw-flex tw-flex-col lg:tw-h-screen">
             <div
                 class="tw-bg-gray-700 tw-shadow tw-relative tw-py-2 tw-pl-3 lg:tw-px-6 tw-h-12 tw-flex tw-items-center tw-justify-between">
-                <a href="#" class="tw-text-gray-200 tw-block tw-w-32 tw-relative tw-z-30">Workout In Gym</a>
+                <a href="#" class="tw-text-gray-200 tw-block tw-w-32 tw-relative tw-z-30">Book Store</a>
                 <button type="button"
                         class="tw-rounded tw-outline-none tw-px-3 tw-py-2 tw-leading-none tw-text-white tw-shadow tw-bg-gray-800 tw-font-medium tw-mx-3 tw-text-sm xxl:tw-text-base hover:tw-bg-white hover:tw-text-yellow-100 lg:tw-hidden">
                     <span class="tw-block">Menu </span>
